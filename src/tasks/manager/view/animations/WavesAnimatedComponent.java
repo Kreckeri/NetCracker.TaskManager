@@ -1,4 +1,4 @@
-package tasks.manager.gui.animations;
+package tasks.manager.view.animations;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,9 +1,9 @@
 package tasks.manager;
 
-import tasks.manager.gui.UndecoratedFrame;
-import tasks.manager.gui.animations.WavesAnimatedComponent;
-import tasks.manager.journal.Task;
-import tasks.manager.journal.TaskJournal;
+import tasks.manager.view.UndecoratedFrame;
+import tasks.manager.view.animations.WavesAnimatedComponent;
+import tasks.manager.model.journal.Task;
+import tasks.manager.model.journal.TaskJournal;
 
 
 import javax.swing.*;

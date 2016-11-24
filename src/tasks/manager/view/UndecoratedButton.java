@@ -1,4 +1,4 @@
-package tasks.manager.gui;
+package tasks.manager.view;
 
 import javax.swing.*;
 

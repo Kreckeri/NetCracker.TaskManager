@@ -1,4 +1,4 @@
-package tasks.manager.journal;
+package tasks.manager.model.journal;
 
 import java.util.TreeSet;
 
