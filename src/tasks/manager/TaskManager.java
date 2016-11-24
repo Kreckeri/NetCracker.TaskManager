@@ -102,7 +102,7 @@ public class TaskManager {
 
     //Update task in journal
     public void updateTask(Task oldTask, Task newTask) {
-        journal.updateTask(oldTask, newTask);
+        journal.modificationTask(oldTask, newTask);
     }
 
     public void loadJournalFromFile(File file) {

@@ -13,8 +13,8 @@ public class TaskJournal {
         return tasks.remove(task);
     }
 
-    public boolean updateTask(Task oldTask, Task newTask) {
-        return deleteTask(oldTask) & addTask(newTask);
+    public boolean modificationTask(Task source, Task modified) {
+        return deleteTask(source) & addTask(modified);
     }
 
     /*public Iterator<Task> getNext(){
