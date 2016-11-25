@@ -1,8 +1,9 @@
 package tasks.manager.model.journal;
 
+import java.util.Observable;
 import java.util.TreeSet;
 
-public class TaskJournal {
+public class TaskJournal extends Observable{
     TreeSet<Task> tasks = new TreeSet<>();
 
     public boolean addTask(Task task) {
@@ -21,6 +22,7 @@ public class TaskJournal {
         return tasks.iterator();
     }*/
     //TODO:Add serializable
+
 
 
 }

@@ -1,5 +1,6 @@
 package tasks.manager.model.observer;
 
-public interface Observer {
-    void handleEvent();
+public interface Observer{
+    void handleEvent(Event event);
+
 }

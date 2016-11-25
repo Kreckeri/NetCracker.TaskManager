@@ -1,17 +1,16 @@
 package tasks.manager;
 
-import tasks.manager.view.UndecoratedFrame;
-import tasks.manager.view.animations.WavesAnimatedComponent;
 import tasks.manager.model.journal.Task;
 import tasks.manager.model.journal.TaskJournal;
-
+import tasks.manager.view.UndecoratedFrame;
+import tasks.manager.view.animations.WavesAnimatedComponent;
 
 import javax.swing.*;
 import java.awt.*;
 import java.io.File;
 import java.util.Vector;
 
-public class TaskManager {
+public class TaskManager{
 
     TaskJournal journal;
 
@@ -20,6 +19,7 @@ public class TaskManager {
     }
 
     public void init() {
+
 
         JFrame mainFrame = new JFrame("Планировщик задачъ основная конструкция");
         mainFrame.setBounds(100, 100, 390, 500);
