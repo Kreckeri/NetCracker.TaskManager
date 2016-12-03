@@ -30,7 +30,5 @@ public class Main {
         TaskManager manager = new TaskManager();
         manager.init();
 
-        System.out.println("Testt");
-
     }
 }
