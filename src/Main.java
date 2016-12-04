@@ -1,4 +1,6 @@
 import tasks.manager.TaskManager;
+import tasks.manager.view.RegistrationForm;
+import tasks.manager.view.TaskManagerForm;
 
 public class Main {
     public static void main(String args[]){
@@ -27,10 +29,7 @@ public class Main {
         frame.setVisible(true);
         */
 
-        TaskManager manager = new TaskManager();
-        manager.init();
-
-
-
+        RegistrationForm form = new RegistrationForm();
+        form.init();
     }
 }
